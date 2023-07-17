@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Veteran GovCon Workforce Certification</title>
+<style>
+body {
+  background-color: #0000ff;
+  color: #000000;
+  font-family: Arial;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+.answer {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>Veteran GovCon Workforce Certification</h1>
+<div class="question">
+  When faced with multiple contingent offers, what's the best course of action for veterans?
+</div>
+<div class="button">
+  Press to reveal the answer
+</div>
+<div class="answer">
+  The best course of action for veterans when faced with multiple contingent offers is to carefully consider each offer and choose the one that is the best fit for their individual needs and goals. Veterans should also be sure to negotiate the terms of each offer to ensure that they are getting the best possible deal.
+</div>
+<div class="question">
+  How can a veteran enhance their preparation for the recompete of their project?
+</div>
+<div class="button">
+  Press to reveal the answer
+</div>
+<div class="answer">
+  There are a number of ways that a veteran can enhance their preparation for the recompete of their project. These include:
+    * Reviewing the project requirements carefully
+    * Identifying any areas where they need additional training or development
+    * Developing a plan to address any gaps in their knowledge or skills
+    * Networking with other veterans who have successfully competed for recompetes
+</div>
+<script>
+// This code will reveal the answer when the button is clicked
+var buttons = document.querySelectorAll(".button");
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", function() {
+    var answer = this.nextElementSibling;
+    if (answer.style.display === "none") {
+      answer.style.display = "block";
+    } else {
+      answer.style.display = "none";
+    }
+  });
+}
+</script>
+</body>
+</html>
